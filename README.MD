@@ -11,14 +11,14 @@ Run with the below command
 
 Command line options
 
-* -h (help) displays help menu
-* -d (defaults) use defaults. This means
+* -h Displays help menu (help).
+* -d Use defaults (defaults). This means
   * Ignore header
   * Compare column 1 and 2 in the first sheet
   * Display results in terminal
-* -i (input) input specific file
-* -o (output) output results
-* -l (location) enter location / directory of file
+* -i Input specific file (input)
+* -o Output results to file (output)
+* -l Enter directory where file resides (location)
 
 # Feature Extension
 
