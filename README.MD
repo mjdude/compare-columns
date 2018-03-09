@@ -7,6 +7,19 @@ A command line tool to comapre colums in a spreadsheet. This takes in a filename
 Run with the below command
 `Yarn start`
 
+## Options
+
+Command line options
+
+* -h (help) displays help menu
+* -d (defaults) use defaults. This means
+  * Ignore header
+  * Compare column 1 and 2 in the first sheet
+  * Display results in terminal
+* -i (input) input specific file
+* -o (output) output results
+* -l (location) enter location / directory of file
+
 # Feature Extension
 
 A todo list of features to add
