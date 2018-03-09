@@ -1,7 +1,7 @@
 {
   "name": "find-column-duplicates",
   "version": "1.0.0",
-  "main": "compare.js",
+  "main": "app.js",
   "license": "MIT",
   "scripts": {
     "start": "node compare.js"

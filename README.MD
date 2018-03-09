@@ -24,8 +24,10 @@ Command line options
 
 A todo list of features to add
 
+* Add error handling
 * Publish to npm
 * Add test
+* Show progress
 * Handle different file types
 * Select sheets
 * Select columns
@@ -38,3 +40,4 @@ A todo list of features to add
 # Notes
 
 This script uses [SheetsJS](https://github.com/sheetjs/js-xlsx)
+Example CLI [Coinmon](https://github.com/bichenkk/coinmon)
