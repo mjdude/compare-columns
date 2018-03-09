@@ -1,8 +1,11 @@
 {
-  "name": "check-duplicates",
+  "name": "find-column-duplicates",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "compare.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node compare.js"
+  },
   "dependencies": {
     "xlsx": "^0.12.4"
   }
