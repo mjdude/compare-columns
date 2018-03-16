@@ -56,6 +56,10 @@ ssf@~0.10.2:
   dependencies:
     frac "~1.1.2"
 
+underscore@^1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.8.3.tgz#4f3fb53b106e6097fcf9cb4109f2a5e9bdfa5022"
+
 xlsx@^0.12.4:
   version "0.12.4"
   resolved "https://registry.yarnpkg.com/xlsx/-/xlsx-0.12.4.tgz#047ba115c0500b42dc1ea984cd09879c4141a1a0"
