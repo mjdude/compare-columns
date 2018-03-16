@@ -1,19 +1,17 @@
 const XLSX = require("xlsx");
+const _ = require("underscore");
+
 const compare = (listOne, listTwo) => {
-  console.log(`length of list one is ${listOne.length}`);
-  console.log(`length of list two is ${listTwo.length}`);
-  const duplicates = listOne.filter(val => {
-    return listTwo.indexOf(val) !== -1;
-  });
+  const intersection = _.intersection(listOne, listTwo);
+  console.log(`List 1 and List 2 share ${intersection.length} elements`);
 
-  console.log(`length of duplicate list is ${duplicates.length}`);
-  console.log(
-    `length of list one minus duplicates is ${listOne.length -
-      duplicates.length}`
-  );
+  const difference = _.difference(listOne, listTwo);
+  console.log(`List 1 contains ${difference.length} not in List 2`);
+
+  console.log(`Elements that are the same are:`);
+  console.log(intersection);
+  ``;
 };
-
-// console.log(workbook);
 
 const getCols = (workbook, sheetName) => {
   let col1 = [];
@@ -22,9 +20,6 @@ const getCols = (workbook, sheetName) => {
     row.New ? col1.push(row.New) : null;
     row.Old ? col2.push(row.Old) : null;
   });
-
-  console.log("Col1 is", col1);
-  console.log("Col2 is", col2);
 
   return { col1, col2 };
 };
